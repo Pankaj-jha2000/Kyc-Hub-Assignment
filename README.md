@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# KYCHub Front-End Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the solution for the KYCHub Front-End Assignment. The project is a responsive web application built with ReactJS and Ant Design, fulfilling the requirements provided in the assignment brief.
 
-## Available Scripts
+## Features
+Responsive Design: The web application is fully responsive, featuring a fixed Navbar and Sidebar for seamless navigation.
+#### Navbar and Sidebar:
+The Navbar includes a logo and a user profile picture.
 
-In the project directory, you can run:
+The Sidebar provides navigation between the Product Details and Compare Products pages.
+#### Product Details Page:
+Displays a table of products fetched from a public API.
 
-### `npm start`
+The table is paginated (page size = 10) and includes sorting functionality.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Each row in the table has a "Compare" button, which adds the product to a comparison list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If a product is already added to the comparison, the "Compare" button is disabled.
+#### Compare Products Page:
+Allows users to compare products side-by-side based on various attributes like features, brand, price, category, etc.
 
-### `npm test`
+Users can add up to four products to the comparison list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The comparison page features an "Add More" button, opening a modal that lists all products in a table format.
 
-### `npm run build`
+Duplicate products cannot be added to the comparison.
+#### Enhanced User Experience:
+Notifications on actions such as adding/removing products and invalid operations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Infinite scroll pagination is implemented for a smoother experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Dark mode toggle is available for better visual accessibility.
+## Technologies Used
+ReactJS: JavaScript library for building user interfaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ant Design: UI framework for creating elegant and responsive interfaces.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React Router: Used for navigating between pages.
+## API Used
+The product data is fetched from DummyJSON API.
+Live Demo
+The live demo of this project can be accessed here.
