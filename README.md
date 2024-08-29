@@ -40,3 +40,4 @@ React Router: Used for navigating between pages.
 The product data is fetched from DummyJSON API.
 Live Demo
 The live demo of this project can be accessed here.
+https://kyc-hub-assignment.vercel.app/
