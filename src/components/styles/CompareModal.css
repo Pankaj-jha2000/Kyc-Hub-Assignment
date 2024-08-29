@@ -1,0 +1,22 @@
+/* styles/CompareModal.css */
+
+.ant-modal-title {
+    color: var(--primary-color);
+    font-size: 1.5em;
+  }
+  
+  .ant-modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .ant-btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  

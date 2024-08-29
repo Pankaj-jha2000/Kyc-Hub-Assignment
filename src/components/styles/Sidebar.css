@@ -1,0 +1,25 @@
+/* src/styles/Sidebar.css */
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 60px; /* Align with Navbar */
+  width: 220px;
+  height: calc(100% - 60px);
+  background-color: var(--primary-color);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+  background-color: var(--secondary-color);
+}

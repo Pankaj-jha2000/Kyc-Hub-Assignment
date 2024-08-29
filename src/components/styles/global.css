@@ -1,0 +1,40 @@
+/* src/styles/global.css */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #343a40;
+  --link-color: #007bff;
+}
+
+.dark-mode {
+  --primary-color: #282c34;
+  --secondary-color: #61dafb;
+  --background-color: #282c34;
+  --text-color: #ffffff;
+  --link-color: #61dafb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.main-content {
+  margin-left: 220px; /* Sidebar width */
+  margin-top: 60px;   /* Navbar height */
+  padding: 20px;
+}
